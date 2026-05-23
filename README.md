@@ -20,8 +20,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
-- [Screenshots](#screenshots)
-- [Technical Details](#technical-details)
 - [Contributing](#contributing)
 - [License](#license)
 
