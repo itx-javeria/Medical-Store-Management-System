@@ -7,7 +7,7 @@ using namespace std;
 //   color codes for displaying differenct colors in terminal
 #define RESET "\033[0m"
 #define RED "\033[31m"
-#define GREEN "\033[32m"         
+#define GREEN "\033[32m"
 #define YELLOW "\033[33m"
 #define CYAN "\033[36m"
 #define MAGENTA "\033[35m"
@@ -731,6 +731,8 @@ void MedicalStore::bookAppointment()
     // this do while loop will Keep asking until user enters a valid 24 hrr time
     do
     {
+        cin.ignore();
+
         cout << "  Enter Preferred Time (24-hr format HH:MM, e.g. 14:30) : ";
         getline(cin, time);
 
